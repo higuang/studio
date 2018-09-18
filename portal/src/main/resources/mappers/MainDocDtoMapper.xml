@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.yray.studio.portal.dao.MainDocDtoMapper">
+  <resultMap id="BaseResultMap" type="org.yray.studio.portal.dto.MainDocDto">
+    <id column="ID" jdbcType="VARCHAR" property="id" />
+    <result column="FILE_TYPE" jdbcType="VARCHAR" property="fileType" />
+    <result column="TITLE" jdbcType="VARCHAR" property="title" />
+    <result column="CREATE_TIME" jdbcType="TIMESTAMP" property="createTime" />
+    <result column="UPDATE_TIME" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="FILE_NAME" jdbcType="VARCHAR" property="fileName" />
+  </resultMap>
+  <resultMap extends="BaseResultMap" id="ResultMapWithBLOBs" type="org.yray.studio.portal.dto.MainDocDto">
+    <result column="CONTENT" jdbcType="LONGVARBINARY" property="content" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    ID, FILE_TYPE, TITLE, CREATE_TIME, UPDATE_TIME,FILE_NAME
+  </sql>
+  <sql id="Blob_Column_List">
+    CONTENT
+  </sql>
+</mapper>

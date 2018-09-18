@@ -50,7 +50,7 @@
         <li><a href="about.html">about</a></li>
         <li><a href="news.html">news</a></li>
         <li><a href="services.html">services</a></li>
-        <li><a href="doc.html">doc</a></li>
+        <li><a href="${contextPath}/doc/list.html">doc</a></li>
         <li><a href="contact.html">mail us</a></li>
         <div class="clearfix"> </div>
       </ul>

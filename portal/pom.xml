@@ -151,20 +151,33 @@
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-core</artifactId>
-            <version>7.2.1</version>
+            <version>7.4.0</version>
         </dependency>
         <!-- Lucene解析库 -->
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-queryparser</artifactId>
-            <version>7.2.1</version>
+            <version>7.4.0</version>
         </dependency>
         <!-- Lucene附加的分析库 -->
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-analyzers-common</artifactId>
-            <version>7.2.1</version>
+            <version>7.4.0</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.hankcs/hanlp -->
+        <dependency>
+            <groupId>com.hankcs</groupId>
+            <artifactId>hanlp</artifactId>
+            <version>portable-1.6.8</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.hankcs.nlp/hanlp-lucene-plugin -->
+        <dependency>
+            <groupId>com.hankcs.nlp</groupId>
+            <artifactId>hanlp-lucene-plugin</artifactId>
+            <version>1.1.6</version>
+        </dependency>
+
 
         <dependency>
             <groupId>org.sitemesh</groupId>

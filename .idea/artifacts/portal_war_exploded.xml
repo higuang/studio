@@ -48,11 +48,13 @@
           <element id="library" level="project" name="Maven: mysql:mysql-connector-java:5.1.45" />
           <element id="library" level="project" name="Maven: com.github.pagehelper:pagehelper:5.1.2" />
           <element id="library" level="project" name="Maven: com.github.jsqlparser:jsqlparser:1.0" />
-          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-core:7.2.1" />
-          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queryparser:7.2.1" />
-          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queries:7.2.1" />
-          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-sandbox:7.2.1" />
-          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-analyzers-common:7.2.1" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-core:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queryparser:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-queries:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-sandbox:7.4.0" />
+          <element id="library" level="project" name="Maven: org.apache.lucene:lucene-analyzers-common:7.4.0" />
+          <element id="library" level="project" name="Maven: com.hankcs:hanlp:portable-1.6.8" />
+          <element id="library" level="project" name="Maven: com.hankcs.nlp:hanlp-lucene-plugin:1.1.6" />
           <element id="library" level="project" name="Maven: org.sitemesh:sitemesh:3.0.1" />
         </element>
       </element>
